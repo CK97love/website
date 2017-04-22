@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Catherine Kim</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="websitestyle.css">
+</head>
+<body>
+  <!--create navigation bar at top
+  divide space from website name and list of menu options using col-sm -->
+<!--header is top of page-->
+<header class = "container">
+<div class = "navbar">
+  <h1 class = "col-sm-4">Catherine Kim</h1>
+  <nav class = "col-sm-8 text-right">
+    <!--creating an about anchor -->
+    <p><a href = "#about">about</a></p>
+    <p><a href = "#design">design</a></p>
+    <p><a href = "#photography">photography</a></p>
+    <p><a href = "https://medium.com/@catherine_kim22" target="_blank">blog</a></p>
+  </nav>
+ </div>
+</header>
+
+ <div id = "front">
+ </div>
+
+<div id = "content">
+<!--link about anchor-->
+<ul class = "col-sm-12">
+<h2><a id="about" class ="anchor"></a>About</h2>
+<center><img src = "profile.png" width = 150px height = 150px></center>
+<center><p>
+  Hello! I am a designer and photographer. I aspire to become a UX/UI designer.<br>
+  You will find below my design portfolio and some of my photographs. If you <br>
+  like what you see, please check out my resume or feel free to email me. <br>
+  Thank you for visiting.<br>
+  </p></center>
+</ul>
+
+<ul class = "col-sm-12">
+<li class = "col-sm-6">
+<h3>Education</h3>
+<p>University of California, San Diego (2015-2019)</p>
+<p>B.S. Cognitive Science - Human Computer Interaction</p>
+<h3>Skillset</h3>
+<p>Programming Languages: HTML, CSS, Java, JavaScript, Python</p>
+<p>Technical Applications: Google App Engine, Github, Terminal, </p>
+<p>Adobe Photoshop, DSLR Camera</p>
+<p>Speaking Languages: English, Korean, French</p>
+</li>
+<li class = "col-sm-6">
+<h3>How Can I Help You?</h3>
+<p> I want to make a website.</p>
+<p> I want a photoshoot for an event.</p>
+<p> I want to study abroad.</p>
+<h3>Contact</h3>
+<a href="mailto:kimcatherine2297@gmail.com?Subject=Hello" target="_top">
+kimcatherine2297@gmail.com</a><br>
+<a href="resume.pdf" target="_blank">Resume</a>
+</li>
+</ul>
+
+
+<ul class = "col-sm-12">
+<h2><a id="design" class ="anchor"></a>Design</h2>
+
+<li class = "col-sm-9">
+<h3>Google Computer Science Summer Institute</h3>
+<h4> Mountain View, CA  |  July 2015</h4>
+<p> By participating in this program, I was able to learn web app development from Google engineers.
+  Our team project consisted of creating a digital time capsule so users can craft messages that
+  could only be viewed after the desired delivery date.</p>
+
+
+  <label class="collapse" for="_1">
+    <a id = "button" class = "btn btn-primary" role = "button">Show Design Process</a>
+  </label>
+  <input id="_1" type="checkbox">
+
+
+  <div>
+    <h4>purpose</h4>
+    <p>A time capsule contains artifacts that is buried with
+      the intention of discovering these artifacts in the future.
+      Our team decided to create a digital time capsule called Project M
+      to store messages that will be sent to the desired recipient after a
+      defined amount of time. Essentially, a user can send emails
+      that will be delivered later. Sound like Boomerang? What
+      makes Project M different is that after creating the memory, the user cannot
+      view the information just how a time capsule is not taken out of the ground
+      until the desired date. </p>
+
+      <h4>user flow</h4>
+        <p> view homepage <br>
+        sign into gmail <br>
+        view profile page that includes <br>
+        saved memories chart and create new memory button <br>
+        input desired recipent, text, and devliery date with prompted form <br>
+        alert with confirmation pop up <br>
+        redirect to profile page</p>
+  </div>
+
+
+<a id = "button" class = "btn btn-primary" href = "project-memory.appspot.com" role = "button">Visit Project M</a>
+</li>
+
+<li class = "col-sm-3">
+  <div id = "design">
+  <img src = "google.png">
+  </div>
+</li>
+
+</ul>
+
+<ul class = "col-sm-12">
+<li class = "col-sm-9">
+<h3 id = "protolab">UC San Diego Protolab</h3>
+<h4>La Jolla, CA  |  March 2017 - present</h4>
+<p>I am currently working on a research project called Design 4 San Diego.
+   This project aims to engage San Diego citizens using methods from
+   human-centered design and crowdsourcing to innovate solutions that will
+   improve the city.</p>
+<a id = "button" class = "btn btn-primary" href = "https://designsandiego.ucsd.edu/" target="_blank" role = "button">Visit Design 4 San Diego</a>
+</li>
+<li class = "col-sm-3">
+<div id = "design" >
+  <img src = "protolab.jpg">
+</div>
+</li>
+</ul>
+
+<ul class = "col-sm-12">
+<h2><a id="photography" class ="anchor"></a>Photography</h2>
+
+<center>
+<div class = "slideshow">
+  <li class = "col-sm-3">
+  <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+  </li>
+
+  <li class = "col-sm-6">
+    <div class = "slides" id = "imagelist">
+    <img src = "images/balance.jpg">
+    <img src = "images/color.jpg">
+    <img src = "images/fog.jpg">
+    <img src = "images/progression.jpg">
+    <img src = "images/shape.jpg">
+    <img src = "images/still life.jpg">
+  </div>
+
+    <img class = "slides" src = "images/balance.jpg">
+  </li>
+
+  <li class = "col-sm-3">
+  <button class="display-right" onclick="plusDivs(+1)">&#10095;</button>
+  </li>
+</div>
+</center>
+
+</ul>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+<!-- create footer -->
+
+  <footer class = "container">
+      <ul class = "col-sm-8">
+        <li class = "col-sm-4">
+          <a href="mailto:kimcatherine2297@gmail.com?Subject=Hello" target="_top">
+          kimcatherine2297@gmail.com</a>
+        </li>
+        <li class = "col-sm-4">
+          <a href="resume.pdf" target="_blank">Resume</a>
+        </li>
+      </ul>
+      </footer>
+
+</div>
+
+</body>
+</html>
